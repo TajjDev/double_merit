@@ -1,0 +1,19 @@
+import React from 'react'
+import Links from '../../component/nav/links/Link';
+import "./indexx.css"
+
+const Index = () => {
+    return (
+        <div id='hom'>
+            <h3>Unlock the Doors to a Future of Excellence</h3>
+            <p>Experience a harmonious blend of academic brilliance and moral integrity, shaping well-rounded leaders for tomorrow.</p>
+
+            <div id="homBtn">
+            <Links className={`homeBtn`} to={'/about'} label={'About Us'} />
+
+            </div>
+        </div>
+    )
+}
+
+export default Index

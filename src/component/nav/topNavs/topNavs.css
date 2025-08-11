@@ -1,0 +1,123 @@
+.navi {
+    display: flex;
+    width: 95%;
+}
+
+#thenav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#theLogo h2{
+    font-size: 1.65rem;
+    font-weight: bold;
+    color: #222222;
+    margin: 0;
+}
+
+
+
+#theLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#theLogo p {
+    color: #1ed104;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+#theLogo img {
+    width: 15%;
+    height: 100%;
+}
+
+#theL {
+    display: flex;
+    gap: 15px;
+    align-self: center;
+}
+
+
+#dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown,
+#but, .cancel-btn {
+    display: none;
+}
+
+@media (max-width:768px) and (min-width:300px) {
+    #theLogo h2{
+    font-size: 1.46rem;
+    margin: 0;
+    }
+    #but, .cancel-btn {
+        align-items: center;
+        background: none;
+        display: flex;
+        border:  2px dotted #1ed104;
+        padding: 10px;
+        border-radius: 5px;
+        /* padding-block: 0; */
+    /* padding-inline: 0; */
+    }
+    
+    #but img, .cancel-btn img {
+        width: 15px;
+        height: 15px;
+    }
+    #theL {
+        display: none;
+    }
+
+    .dropdown,
+    #but {
+        display: flex;
+        justify-content: center;
+   
+        /* right:  0; */
+    }
+    .dropdown{
+        position: absolute;
+        top: 100.566%;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+    }
+
+    .menu-content{
+        width: 100%;
+    }
+    .dropdown button {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    /* .cancel-btn { */
+        /* border: none; */
+        /* font-size: 15px; */
+        /* border: 1px solid orangered; */
+        /* padding: 10px; */
+        /* display: block; */
+        /* cursor: pointer; */
+    /* } */
+
+    .navi {
+        flex-direction: column;
+    }
+
+    #tabMob {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

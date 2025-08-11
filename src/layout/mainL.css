@@ -1,0 +1,22 @@
+#layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    /* background-color: rgb(219, 217, 213); */
+    
+}
+#nav{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #00000058;
+
+} 
+#display{
+    width: 100%;
+}

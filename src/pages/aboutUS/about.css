@@ -1,0 +1,13 @@
+#abt{
+    width: 100%;
+}
+#abtP{
+    font-size: 3rem;
+    /* width: 100%; */
+    font-weight: 700;
+    text-align: center;
+    padding: 60px;
+    margin: 0;
+    color: #fff;
+    background-color: #1ed104;
+}
