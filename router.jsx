@@ -3,8 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./src/layout/MainL";
 import Index from "./src/pages/index/Index";
 import About from "./src/pages/aboutUS/About";
-import Contact from "./src/pages/contactUS/contact";
-import Academic from "./src/pages/academics/academic";
+import Contact from "./src/pages/contactUS/Contact";
+import Academic from "./src/pages/academics/Academic";
 
 
 const router = createBrowserRouter([
@@ -32,4 +32,5 @@ const router = createBrowserRouter([
         ]
     }
 ])
+
 export default router
