@@ -22,7 +22,7 @@ const Topnav = () => {
             setIsOpen(false);
             setAnimationOut(false);
             setAnimationin(false)
-        }, 300)
+        }, 0)
     }
     useEffect(() => {
         if (isOpen) {
@@ -137,3 +137,4 @@ const Topnav = () => {
 }
 
 export default Topnav
+
