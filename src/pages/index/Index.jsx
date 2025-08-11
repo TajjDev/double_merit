@@ -1,7 +1,7 @@
 import React from 'react'
 import Links from '../../component/nav/links/Link';
 import "./indexx.css"
-import bgOne from "/src/assets/image/bgOne.jpg"
+// import bgOne from "/src/assets/image/bgOne.jpg"
 
 const Index = () => {
     return (
@@ -17,6 +17,4 @@ const Index = () => {
     )
 }
 
-
 export default Index
-

@@ -86,12 +86,12 @@ const Topnav = () => {
         <div className='navi'>
             <div id="thenav" >
 
-                <div id="logo">
+                {/* <div id="logo"> */}
                     <div id="theLogo">
                         <img src={logo} alt="travel" />
-                        <h2>Double Merit</h2>
+                        <h2>Double Merit <br /> Children Academy</h2>
                     </div>
-                </div>
+                {/* </div> */}
 
 
 
