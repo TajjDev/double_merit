@@ -1,7 +1,7 @@
 #hom{
     padding: 50px;
     color: #fff;
-    background: linear-gradient(to left, #00000093, #1fd104bd), url('/assets/image/bgOne.jpg');
+    background: linear-gradient(to left, #00000093, #1fd104bd), url('/image/bgOne.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,4 +38,5 @@
     }
 
 }
+
 
