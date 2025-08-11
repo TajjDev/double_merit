@@ -1,7 +1,7 @@
 import React from 'react'
 import './mainL.css'
 import {Outlet} from "react-router-dom"
-import Topnav from '../component/nav/topNavs/topNavs'
+import Topnav from '../component/nav/topNavs/TopNavs'
 
 const MainLayout = () => {
     
@@ -14,4 +14,5 @@ const MainLayout = () => {
   }
   
   export default MainLayout
+
   
