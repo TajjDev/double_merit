@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "./src/layout/MainL";
 import Index from "./src/pages/index/Index";
 import About from "./src/pages/aboutUS/About";
-import Contact from "./src/pages/contactUS/Contact";
+// import Contact from "./src/pages/contactUS/contact";
 import Academic from "./src/pages/academics/Academic";
+import Contact from "./src/pages/contactUS/Contact";
+import Unk from "./src/pages/index/Unk";
 
 
 const router = createBrowserRouter([
@@ -13,7 +15,7 @@ const router = createBrowserRouter([
         element:<MainLayout/>,
         children:[
             {
-                path:"/",
+                index:true,
                 element:<Index/>
             },
             {
@@ -28,9 +30,12 @@ const router = createBrowserRouter([
                 path:"/academics",
                 element:<Academic/>
             },
+            {
+                path:'*',
+                element:<Unk/>
+            }
 
         ]
     }
 ])
-
 export default router
