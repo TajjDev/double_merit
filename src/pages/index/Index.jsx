@@ -10,11 +10,12 @@ const Index = () => {
             <p>Experience a harmonious blend of academic brilliance and moral integrity, shaping well-rounded leaders for tomorrow.</p>
 
             <div id="homBtn">
-            <Links className={`homeBtn`} to={'/about'} label={'About Us'} />
+            <Links className={`homeBtn`} to={'/about'} label={'Who Are We?'} />
 
             </div>
         </div>
     )
 }
+
 
 export default Index
