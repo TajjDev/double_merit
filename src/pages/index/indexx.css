@@ -200,6 +200,7 @@
         font-size: 0.95rem;
     }
     #secT{
+        justify-content: center;
         width: 80%;
         margin-top: 20px;
     }
@@ -288,4 +289,5 @@
         padding: 100px 30px 50px 30px;
         gap: 40px;
     }
+
 }
