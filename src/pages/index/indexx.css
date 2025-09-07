@@ -1,4 +1,4 @@
-#hom{
+#hom {
     padding: 200px 110px 100px 110px;
     /* height: 400px; */
     gap: 30px;
@@ -10,16 +10,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family:  "Poppins";
+    font-family: "Poppins";
 }
-#homBtn{
+
+#homBtn {
     width: 100%;
     display: flex;
 }
-.homeBtn{
+
+#homee {
+    width: 100%;
+}
+
+.homeBtn {
     align-items: center;
-    border:3px solid #fff;
-    padding: 10px 25px;
+    border: 3px solid #fff;
+    padding: 15px 25px;
     border-radius: 15px;
     text-decoration: none;
     background: #0000006e;
@@ -28,7 +34,8 @@
     font-weight: 600;
     font-size: 1rem;
 }
-#hom h3{
+
+#hom h3 {
     font-size: 2.9rem;
     margin: 0;
     /* line-break: break-all; */
@@ -38,38 +45,185 @@
     letter-spacing: 2px;
     width: 60%;
 }
-#hom p{
+
+#hom p {
     font-size: 1.1rem;
     width: 55%;
     margin: 0;
 }
+
+#sec {
+    display: flex;
+    width: 85%;
+    justify-self: center;
+    justify-content: space-between;
+    padding: 110px 0;
+    align-items: center;
+}
+
+#secO {
+    width: 45%;
+}
+
+#secO h3 {
+    font-size: 2.5rem;
+    color: #061a03;
+
+}
+
+#secO p {
+    font-size: 1.05rem;
+    color: #061a03bb;
+}
+
+#secT {
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+
+#secT img {
+    box-shadow: 7px 2px 15px 5px #0000006e;
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+#trd {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    /* align-self: center; */
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eaf8e8f2;
+    padding: 120px 0;
+}
+
+#stnd h3 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 0;
+    color: #061a03;
+}
+
+#visMis {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    gap: 30px;
+}
+.bol {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0;
+    color: #061a03;
+}
+#visMis .boll {
+    font-size: 1.05rem;
+    color: #061a03bb;
+}
+
+#vis,
+#mis {
+    background-color: #fff;
+    padding: 30px 50px;
+    width: 35%;
+    border-radius: 5px;
+    transition: transform 0.1s ease;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+#vis:hover,
+#mis:hover {
+    border: 1px solid #24be0ca1;
+    animation: bounce 0.7s infinite alternate;
+}
+#secT img:hover {
+    animation: bounce 0.7s infinite alternate;
+}
+@keyframes bounce {
+    from {
+        transform: translateY(3px);
+    }
+
+    to {
+        transform: translateY(-3px);
+    }
+}
+
 @media (max-width:1024px) and (min-width:769px) {
-    #hom{
+    #hom {
         padding: 160px 70px 80px 70px;
         /* height: 400px; */
         gap: 20px;
     }
-    #hom h3{
+
+    .homeBtn {
+        padding: 10px 20px;
+    }
+
+    #hom h3 {
         font-size: 2.6rem;
         width: 75%;
         line-height: 50px;
     }
-    #hom p{
+
+    #hom p {
         font-size: 1.2rem;
         width: 70%;
         margin: 0;
     }
 }
-@media (max-width:768px) and (min-width:200px) {
 
-    #hom{
+@media (max-width:768px) and (min-width:200px) {
+    #sec,#trd{
+        flex-direction: column;
+        width: 90%;
+        padding: 70px 0;
+    }
+    #secO h3,#stnd h3{
+        margin: 0;
+        font-size: 2rem;
+    }
+    #trd{
+        width: 100%;
+    }
+    #stnd{
+        width: 90%;
+    }
+    #secO{
+        width: 80%;
+    }
+    #secO p{
+        font-size: 0.95rem;
+    }
+    #secT{
+        width: 80%;
+        margin-top: 20px;
+    }
+    #visMis{
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+    }
+    #mis, #vis{
+        padding: 20px 20px;
+        width: 90%;
+    }
+    #hom {
         /* height: 1000px; */
-        padding: 150px 30px 75px 30px ;
+        padding: 150px 30px 75px 30px;
         gap: 40px;
 
     }
-    
-    #hom h3{
+
+    .homeBtn {
+        padding: 10px 20px;
+    }
+
+    #hom h3 {
         font-size: 2.25rem;
         margin: 0;
         /* line-break: break-all; */
@@ -79,25 +233,29 @@
         letter-spacing: 2px;
         width: 80%;
     }
-    #hom p{
+
+    #hom p {
         font-size: 0.95rem;
         margin-top: -20px;
         width: 80%;
     }
-    .homeBtn{
+
+    .homeBtn {
         margin: 0 0;
     }
 }
+
 @media (max-width:501px) and (min-width:454px) {
-    #hom h3{
+    #hom h3 {
         width: 90%;
     }
 
 }
+
 @media (max-width:501px) and (min-width:200px) {
-    .homeBtn{
+    .homeBtn {
         align-items: center;
-        border:3px solid #fff;
+        border: 3px solid #fff;
         padding: 10px 20px;
         border-radius: 15px;
         text-decoration: none;
@@ -108,23 +266,26 @@
         font-size: 0.9rem;
     }
 }
+
 @media (max-width:454px) and (min-width:200px) {
-    #hom h3{
+    #hom h3 {
         width: 95%;
         font-size: 2.1rem;
         /* line-break: break-all; */
     }
-    #hom{
+
+    #hom {
         /* height: 1000px; */
-        padding: 120px 30px 60px 30px ;
+        padding: 120px 30px 60px 30px;
         gap: 40px;
     }
-    
+
 }
+
 @media (max-width:400px) and (min-width:200px) {
-    #hom{
+    #hom {
         /* height: 1000px; */
-        padding: 100px 30px 50px 30px ;
+        padding: 100px 30px 50px 30px;
         gap: 40px;
     }
 }

@@ -9,6 +9,7 @@ const MainLayout = () => {
       <div id='layout'>
         <div id="nav"><Topnav/></div>
         <div id="display"><Outlet/></div>
+        <footer><p>Copyright © 2025 Double Merit Children Academy</p></footer>
       </div>
     )
   }

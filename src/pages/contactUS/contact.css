@@ -2,12 +2,24 @@
     width: 100%;
 }
 #cntP{
-    font-size: 3rem;
+    font-size: 4.5rem;
     /* width: 100%; */
     font-weight: 700;
     text-align: center;
-    padding: 60px;
+    padding: 130px;
     margin: 0;
     color: #fff;
     background-color: #1ed104;
+}
+@media (max-width:425px) and (min-width:200px) {
+    #cntP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
 }
