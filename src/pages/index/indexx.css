@@ -199,6 +199,11 @@
     #secO p{
         font-size: 0.95rem;
     }
+    #secT img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
     #secT{
         display:flex;
         justify-content: center;
@@ -292,5 +297,6 @@
     }
 
 }
+
 
 
