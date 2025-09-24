@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Links from '../../component/nav/links/Link';
 import "./indexx.css"
 import image from "/src/assets/image/bgOnee.jpg"
 // import bgOne from "/src/assets/image/bgOne.jpg"
 
 const Index = () => {
+    const [isOpen, setIsOpen] =  useState(false)
+    const openOverlay = ()=> setIsOpen(true)
+    const closeOverlay = ()=> setIsOpen(false)
     return (
         <div id="homee">
             <div id='hom'>
@@ -22,7 +25,12 @@ const Index = () => {
                     <p>Double Merit Children Academy, located in 7, Ishaga Road opposite Mabo junction Ojuelegba, Surulere Lagos State, Nigeria, is a private primary school established on September, 2002.The school was founded to provide comprehensive education that integrates academic excellence with moral and intellectual development, grounded in Islamic principles.</p>
                 </div>
                 <div id="secT">
-                    <img src={image} alt="" />
+                    <img src={image} className='thumbnail' onClick={openOverlay} alt="Thumbnail" />
+                    {isOpen && (
+                        <div className='overlay' onClick={closeOverlay}>
+                            <img src={image} alt="Full" />
+                        </div>
+                    )}
                 </div>
             </div>
             <div id="trd">
