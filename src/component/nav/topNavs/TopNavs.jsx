@@ -100,10 +100,10 @@ const Topnav = () => {
 
                 <div id='links'>
                     <div id="theL">
-                        <Links className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => { toggle; handleLinkClick('home') }} to={'/'} label={'Home'} />
-                        <Links className={`nav-link ${activeLink === 'about' ? 'active' : ''}`} onClick={() => { toggle; handleLinkClick('about') }} to={'/about'} label={'About Us'} />
-                        <Links className={`nav-link ${activeLink === 'academics' ? 'active' : ''}`} onClick={() => { toggle; handleLinkClick('academics') }} to={'/academics'} label={'Academics'} />
-                        <Links className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} onClick={() => { toggle; handleLinkClick('contact') }} to={'/contactUs'} label={'Contact Us'} />
+                        <Links className={`nav-link ${activeLink === 'home' ? 'active' : ''}`} onClick={() => { toggle(); handleLinkClick('home') }} to={'/'} label={'Home'} />
+                        <Links className={`nav-link ${activeLink === 'about' ? 'active' : ''}`} onClick={() => { toggle(); handleLinkClick('about') }} to={'/about'} label={'About Us'} />
+                        <Links className={`nav-link ${activeLink === 'academics' ? 'active' : ''}`} onClick={() => { toggle(); handleLinkClick('academics') }} to={'/academics'} label={'Academics'} />
+                        <Links className={`nav-link ${activeLink === 'contact' ? 'active' : ''}`} onClick={() => { toggle(); handleLinkClick('contact') }} to={'/contactUs'} label={'Contact Us'} />
                     </div >
                 </div>
                 {!isOpen && (
@@ -121,12 +121,12 @@ const Topnav = () => {
 
                     <div className={`menu-content ${animationOut ? 'slide-out' : animationin ? 'slide-in' : ""}`}>
                         <div id='tabMob'>
-                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop; handleLinkClick('home') }} to={'/'} label=
+                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop(); handleLinkClick('home') }} to={'/'} label=
                                 {'Home'} />
-                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop; handleLinkClick('about') }} to={'/about'} label={'About Us'} />
-                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop; handleLinkClick('academics') }} to={'/academics'} label=
+                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop(); handleLinkClick('about') }} to={'/about'} label={'About Us'} />
+                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop(); handleLinkClick('academics') }} to={'/academics'} label=
                                 {'Academics'} />
-                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop; handleLinkClick('contact') }} to={'/contactUs'} label=
+                            <Links className={`nav-link `} onClick={() => {closeMenu(); toggleDrop(); handleLinkClick('contact') }} to={'/contactUs'} label=
                                 {'Contact Us'} />
                         </div>
                     </div>
