@@ -303,11 +303,11 @@
 }
 @media (max-width:425px) and (min-width:200px) {
     .overlay img{
-        max-width: 280px;
-        /* z-index: 10000000; */
-        max-height: 180px;
-        border-radius: 8px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+       max-width: 310px;
+/* z-index: 10000000; */
+max-height: 210px;
+border-radius: 8px;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     }
 }
 @media (max-width:501px) and (min-width:454px) {
@@ -353,4 +353,5 @@
         padding: 100px 30px 50px 30px;
         gap: 40px;
     }
+
 }
