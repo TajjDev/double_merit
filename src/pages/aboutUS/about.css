@@ -1,7 +1,8 @@
-#abt{
+#abt {
     width: 100%;
 }
-#abtP{
+
+#abtP {
     font-size: 4.5rem;
     /* width: 100%; */
     font-weight: 700;
@@ -11,8 +12,62 @@
     color: #fff;
     background-color: #1ed104;
 }
-@media (max-width:425px) and (min-width:200px) {
-    #abtP{
+
+#conAbt {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-self: center;
+    /* align-self: center; */
+    justify-content: space-between;
+}
+
+#who {
+    width: 45%;
+}
+
+#who h3, #found h3 {
+    font-size: 1.8rem;
+    color: #061a03;
+}
+
+#found {
+    width: 45%;
+}
+#who p, #found p{
+    font-size: 1.05rem;
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #abtP {
+        font-size: 3.5rem;
+        padding: 110px;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:200px) {
+    #conAbt{
+        flex-direction: column;
+    }
+    #abtP {
+        margin: 0; 
+        font-size: 2rem;
+        padding: 90px;
+    }
+    #who, #found{
+        width: 100%;
+    }
+    #who h3, #found h3 {
+        font-size: 1.5rem;
+        color: #061a03;
+    }
+    #who p, #found p{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:485px) and (min-width:200px) {
+    #abtP {
         font-size: 2.8rem;
         /* width: 100%; */
         font-weight: 700;
@@ -21,5 +76,10 @@
         margin: 0;
         color: #fff;
         background-color: #1ed104;
+    }
+
+    #who h3, #found h3 {
+        font-size: 1.8rem;
+        color: #061a03;
     }
 }

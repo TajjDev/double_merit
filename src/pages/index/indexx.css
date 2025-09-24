@@ -200,16 +200,15 @@
         font-size: 0.95rem;
     }
     #secT img{
-    display: flex;
-    width:80%;
-    align-items: center;
-    justify-content: center;
-}
-    #secT{
-        display:flex;
+        display: flex;
+        width: 80%;
+        align-items: center;
         justify-content: center;
+    }
+    #secT{
         width: 100%;
         margin-top: 20px;
+        justify-content: center;
     }
     #visMis{
         flex-direction: column;
@@ -296,9 +295,4 @@
         padding: 100px 30px 50px 30px;
         gap: 40px;
     }
-
 }
-
-
-
-

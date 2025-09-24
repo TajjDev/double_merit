@@ -11,8 +11,296 @@
     color: #fff;
     background-color: #1ed104;
 }
-@media (max-width:425px) and (min-width:200px) {
+@media (max-width:1024px) and (min-width:769px) {
     #cntP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #cntP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #cntP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP{
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+@media (max-width:768px) and (min-width:426px) {
+    #acdP{
+        font-size: 3rem;
+        padding: 90px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #acdP{
         font-size: 2.8rem;
         /* width: 100%; */
         font-weight: 700;
