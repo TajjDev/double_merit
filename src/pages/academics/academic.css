@@ -100,6 +100,8 @@ h3{
     display: block;
 }
 .popup{
+    /* width: 100%; */
+    justify-content: center;
     display: flex;
     gap: 20px;
 }
@@ -193,6 +195,26 @@ h3{
         flex-direction: column;
     }
 }
+@media (max-width:600px) and (min-width:495px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 440px;
+        z-index: 10000000;
+        /* max-height: 250px;  */
+    }
+}
+@media (max-width:494px) and (min-width:425px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 390px;
+        z-index: 10000000;
+        /* max-height: 250px;  */
+    }
+}
 @media (max-width:1082px) and (min-width:768px) {
     #acd .thumbnail{
         width: calc(50% - 10px);
@@ -239,5 +261,41 @@ h3{
     #acd .thumbnail{
         width: calc(50% - 10px);
         max-width: 95px;
+    }
+}
+@media (max-width:425px) and (min-width:361px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 330px;
+        z-index: 10000000;
+        max-height: 250px; 
+    }
+}
+@media (max-width:361px) and (min-width:300px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 270px;
+        z-index: 10000000;
+        max-height: 250px; 
+    }
+}
+@media (max-width:300px) and (min-width:200px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 230px;
+        z-index: 10000000;
+        max-height: 250px; 
+    }
+}
+@media (max-width:320px) and (min-width:200px) {
+    #academic h3, #register h3, #schAct h3 {
+        font-size: 1.2rem;
+        color: #061a03;
     }
 }
