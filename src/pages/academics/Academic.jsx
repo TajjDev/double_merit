@@ -14,6 +14,16 @@ const Academic = () => {
     const [isOpenT, setIsOpenT] = useState(false)
     const [currentIndex, setCurrentIndex] = useState(0)
     const [currentIndexT, setCurrentIndexT] = useState(0)
+    useEffect(() =>{
+    if(isOpen || isOpenT){
+        document.body.style.overflow = "hidden";
+    } else {
+        document.body.style.overflow = "auto"
+    }
+    return () => {
+        document.body.style.overflow = "auto"
+    }
+}, [isOpen, isOpenT])
     const images = [
         image1,
         image2,
@@ -157,5 +167,6 @@ const Academic = () => {
 
     )
 }
+
 
 export default Academic
