@@ -121,7 +121,7 @@ h3{
 .overlay{
     display: flex;
     width: 100%;
-    position:fixed
+    position:fixed;
     flex-direction: column;
 }
 #overlay img{
@@ -300,4 +300,5 @@ h3{
         color: #061a03;
     }
 }
+
 
