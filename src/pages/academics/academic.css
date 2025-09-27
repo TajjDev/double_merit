@@ -64,7 +64,7 @@ a {
     padding: 20px;
     justify-content: center;
 }
-.thumbnail{
+#acd.thumbnail{
     width: calc(100% - 10px);
     max-width: 250px;
     cursor: pointer;
@@ -76,7 +76,7 @@ a {
     display: flex;
     align-self: center;
 }
-.thumbnail:hover{
+#acd .thumbnail:hover{
     transform: scale(1.05);
 }
 .desktop-only{
@@ -129,7 +129,7 @@ a {
         font-weight: 500;
         margin: 0;
     }
-    .thumbnail{
+    #acd .thumbnail{
         width: calc(50% - 10px);
         max-width: 200px;
     }
@@ -183,19 +183,19 @@ a {
     }
 }
 @media (max-width:449px) and (min-width:200px) {
-    .thumbnail{
+    #acd .thumbnail{
         width: calc(50% - 10px);
         max-width: 150px;
     }
 }
 @media (max-width:349px) and (min-width:200px) {
-    .thumbnail{
+    #acd .thumbnail{
         width: calc(50% - 10px);
         max-width: 130px;
     }
 }
 @media (max-width:309px) and (min-width:200px) {
-    .thumbnail{
+    #acd .thumbnail{
         width: calc(50% - 10px);
         max-width: 95px;
     }
