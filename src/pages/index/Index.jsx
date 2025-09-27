@@ -5,6 +5,9 @@ import image from "/src/assets/image/bgOnee.jpg"
 // import bgOne from "/src/assets/image/bgOne.jpg"
 
 const Index = () => {
+    const toggle = () => {
+        window.scrollTo(0, 0)
+    }
     const [isOpen, setIsOpen] =  useState(false)
     const openOverlay = ()=> setIsOpen(true)
     const closeOverlay = ()=> setIsOpen(false)
@@ -15,7 +18,7 @@ const Index = () => {
                 <p>Experience a harmonious blend of academic brilliance and moral integrity, shaping well-rounded leaders for tomorrow.</p>
 
                 <div id="homBtn">
-                    <Links className={`homeBtn`} to={'/about'} label={'Who Are We?'} />
+                    <Links className={`homeBtn`} onClick={toggle} to={'/about'}  label={'Who Are We?'} />
 
                 </div>
             </div>
