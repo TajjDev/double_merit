@@ -139,7 +139,7 @@ const Academic = () => {
                         )}
                     </div>
                     <div id="cultural">
-                        <h4 className='h3'>School Graduation</h4>
+                        <h4 className='h3'>Visitation to Amusement Park</h4>
                         <div id="graduateImg">
                             <img src={image5} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayT(0)} />
                             <img src={image6} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayT(1)} />
@@ -170,4 +170,5 @@ const Academic = () => {
 
 
 export default Academic
+
 
