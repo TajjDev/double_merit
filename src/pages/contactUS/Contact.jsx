@@ -3,7 +3,7 @@ import "./contact.css"
 
 const Contact = () => {
     const [formData, setFormData] = useState({
-        fullname: "",
+        fullName: "",
         email: "",
         phone: "",
         message: "",
@@ -41,7 +41,7 @@ const Contact = () => {
             alert("Your message has been sent successfully!");
     
             setFormData({
-              fullname: "",
+              fullName: "",
               email: "",
               phone: "",
               message: "",
@@ -77,18 +77,18 @@ const Contact = () => {
           {/* LEFT - FORM */}
           <form className="contact-form" onSubmit={handleSubmit}>
 
-            {/* FIRST NAME */}
+            {/* FULL NAME */}
             <div className="form-group">
-              <label htmlFor="fullname">
+              <label htmlFor="fullName">
                 Full Name <span>*</span>
               </label>
 
               <input
-                id="fullame"
-                name="Nafmulle"
+                id="fullName"
+                name="fullName"
                 type="text"
-                placeholder="E.g. John Adams"
-                value={formData.fullname}
+                placeholder="E.g. John"
+                value={formData.fullName}
                 onChange={handleChange}
                 required
               />
