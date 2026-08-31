@@ -213,7 +213,7 @@ const Contact = () => {
               <div>
                 <h3>Call Us</h3>
 
-                <a>
+                <a href="tel:+2347045071547">
                   +234 7045 071 547
                 </a>
               </div>
@@ -246,7 +246,7 @@ const Contact = () => {
               <div>
                 <h3>Send Us an Email</h3>
 
-                <a>
+                <a href="mailto:doublemerit1@gmail.com">
                  doublemerit1@gmail.com
                 </a>
               </div>
