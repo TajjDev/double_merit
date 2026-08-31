@@ -80,7 +80,7 @@ const Contact = () => {
             {/* FIRST NAME */}
             <div className="form-group">
               <label htmlFor="fullname">
-                First Name <span>*</span>
+                Full Name <span>*</span>
               </label>
 
               <input
