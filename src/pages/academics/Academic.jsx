@@ -15,21 +15,21 @@ const Academic = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const [currentIndexT, setCurrentIndexT] = useState(0)
     useEffect(() =>{
-    if(isOpen || isOpenT){
-        document.body.style.overflow = "hidden";
-    } else {
-        document.body.style.overflow = "auto"
-    }
-    return () => {
-        document.body.style.overflow = "auto"
-    }
-}, [isOpen, isOpenT])
+        if(isOpen || isOpenT){
+            document.body.style.overflow = "hidden";
+        } else {
+            document.body.style.overflow = "auto"
+        }
+        return () => {
+            document.body.style.overflow = "auto"
+        }
+    }, [isOpen, isOpenT])
     const images = [
         image1,
         image2,
         image3,
         image4,
-    ]
+        "WHY ALWAYS ME I FEEL LIKE BALOTELLI"    ]
     const imagesT = [
         image5,
         image6,
@@ -139,7 +139,7 @@ const Academic = () => {
                         )}
                     </div>
                     <div id="cultural">
-                        <h4 className='h3'>Visitation to Amusement Park</h4>
+                        <h4 className='h3'>School Graduation</h4>
                         <div id="graduateImg">
                             <img src={image5} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayT(0)} />
                             <img src={image6} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayT(1)} />
@@ -168,7 +168,4 @@ const Academic = () => {
     )
 }
 
-
 export default Academic
-
-
