@@ -213,9 +213,9 @@ const Contact = () => {
               <div>
                 <h3>Call Us</h3>
 
-                <p>
+                <a>
                   +234 7045 071 547
-                </p>
+                </a>
               </div>
 
             </div>
@@ -246,9 +246,9 @@ const Contact = () => {
               <div>
                 <h3>Send Us an Email</h3>
 
-                <p>
+                <a>
                  doublemerit1@gmail.com
-                </p>
+                </a>
               </div>
 
             </div>
