@@ -1,0 +1,88 @@
+#abt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#abtP {
+    font-size: 4.5rem;
+    /* width: 100%; */
+    font-weight: 700;
+    text-align: center;
+    padding: 130px;
+    margin: 0;
+    color: #fff;
+    background-color: #1ed104;
+}
+
+#conAbt {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-self: center;
+    align-self: center;
+    justify-content: space-between;
+}
+
+#who {
+    width: 45%;
+}
+
+#who h3, #found h3 {
+    font-size: 1.8rem;
+    color: #061a03;
+}
+
+#found {
+    width: 45%;
+}
+#who p, #found p{
+    font-size: 1.05rem;
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #abtP {
+        font-size: 3.5rem;
+        padding: 110px;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:200px) {
+    #conAbt{
+        flex-direction: column;
+    }
+    #abtP {
+        margin: 0; 
+        font-size: 2rem;
+        padding: 90px;
+    }
+    #who, #found{
+        width: 100%;
+    }
+    #who h3, #found h3 {
+        font-size: 1.5rem;
+        color: #061a03;
+    }
+    #who p, #found p{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:485px) and (min-width:200px) {
+    #abtP {
+        font-size: 2.8rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+
+    #who h3, #found h3 {
+        font-size: 1.3rem;
+        color: #061a03;
+    }
+}

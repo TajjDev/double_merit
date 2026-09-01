@@ -1,0 +1,302 @@
+#acd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#acdP {
+    font-size: 4.5rem;
+    /* width: 100%; */
+    font-weight: 700;
+    text-align: center;
+    padding: 130px;
+    margin: 0;
+    color: #fff;
+    background-color: #1ed104;
+}
+
+#academic {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#academic h3,
+#register h3,
+#schAct h3 {
+    font-size: 1.8rem;
+    color: #061a03;
+}
+
+#academic p,
+#register p,
+#schAct p {
+    font-size: 1.05rem;
+    margin: 0;
+}
+
+#register {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+a {
+    color: #000;
+}
+#act{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+#schAct {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+#graduate, #cultural{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#graduateImg img{
+    width: 100%;
+    /* height: 100%; */
+}
+h3{
+    margin: 15px 0;
+}
+#graduateImg{
+    display: flex;
+    /* width: 40%; */
+    align-self: start;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* padding: 20px; */
+    margin-top: 20px;
+    justify-content: center;
+}
+#acd .thumbnail{
+    width: calc(60% - 10px);
+    max-width: 220px;
+    /* border: 5px solid #000; */
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+.h3{
+    /* width: 85%; */
+    /* display: flex; */
+    /* align-self: center; */
+}
+#acd .thumbnail:hover{
+    transform: scale(1.05);
+}
+.desktop-only{
+    display: block;
+}
+.popup{
+    /* width: 100%; */
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.popup button p{
+ font-weight: bold;
+ /* font-size: 2rem; */
+ color: #fff;
+}
+.popup button{
+    background: #00000067;
+    height: 20px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 25px 12px;
+}
+.overlay{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+}
+#overlay img{
+    /* max-height: 3000px; */
+    /* max-width: ; */
+}
+#pic{
+    color: #fff;
+    display: none;
+}
+ #schAct p{
+    font-size: 2.5rem; 
+}
+#schAct h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+@media (max-width:1082px) and (min-width:730px) {
+    #acd .thumbnail{
+        width: calc(50% - 10px);
+        max-width: 150px;
+    }
+}
+@media (max-width:1024px) and (min-width:769px) {
+    #acdP {
+        font-size: 3.5rem;
+        padding: 110px;
+
+    }
+}
+
+@media (max-width:768px) and (min-width:200px) {
+    #graduate, #cultural{
+        width: 100%;
+    }
+    #schAct h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    #acd .thumbnail{
+        width: calc(50% - 10px);
+        max-width: 220px;
+    }
+    #acdP {
+        font-size: 3rem;
+        padding: 90px;
+    }
+
+    #academic h3,
+    #register h3,
+    #schAct h3 {
+        font-size: 1.5rem;
+        color: #061a03;
+    }
+
+    #academic p,
+    #register p,
+    #schAct p {
+        font-size: 0.95rem;
+    }
+    #pic{
+        display: block;
+    }
+    .desktop-only, .popup button{
+        display: none;
+    }
+}
+@media (max-width:600px) and (min-width:200px) {
+    #act{
+        flex-direction: column;
+    }
+}
+@media (max-width:600px) and (min-width:495px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 440px;
+        z-index: 10000000;
+        /* max-height: 250px;  */
+    }
+}
+@media (max-width:494px) and (min-width:425px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 390px;
+        z-index: 10000000;
+        /* max-height: 250px;  */
+    }
+}
+@media (max-width:1082px) and (min-width:768px) {
+    #acd .thumbnail{
+        width: calc(50% - 10px);
+        max-width: 150px;
+    }
+}
+@media (max-width:485px) and (min-width:200px) {
+    #schAct h4{
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0;
+    }
+    #acdP {
+        font-size: 2.5rem;
+        /* width: 100%; */
+        font-weight: 700;
+        text-align: center;
+        padding: 65px 10px;
+        margin: 0;
+        color: #fff;
+        background-color: #1ed104;
+    }
+
+    #academic h3,
+    #register h3,
+    #schAct h3 {
+        font-size: 1.5rem;
+        color: #061a03;
+    }
+}
+@media (max-width:449px) and (min-width:200px) {
+    #acd .thumbnail{
+        width: calc(50% - 10px);
+        max-width: 150px;
+    }
+}
+@media (max-width:349px) and (min-width:200px) {
+    #acd .thumbnail{
+        width: calc(50% - 10px);
+        max-width: 130px;
+    }
+}
+@media (max-width:309px) and (min-width:200px) {
+    #acd .thumbnail{
+        width: calc(50% - 10px);
+        max-width: 95px;
+    }
+}
+@media (max-width:425px) and (min-width:361px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 330px;
+        z-index: 10000000;
+        max-height: 250px; 
+    }
+}
+@media (max-width:361px) and (min-width:300px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 270px;
+        z-index: 10000000;
+        max-height: 250px; 
+    }
+}
+@media (max-width:300px) and (min-width:200px) {
+    #act{
+        flex-direction: column;
+    }
+    .overlay img {
+        max-width: 230px;
+        z-index: 10000000;
+        max-height: 250px; 
+    }
+}
+@media (max-width:320px) and (min-width:200px) {
+    #academic h3, #register h3, #schAct h3 {
+        font-size: 1.2rem;
+        color: #061a03;
+    }
+}
