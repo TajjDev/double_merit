@@ -160,7 +160,13 @@ const Academic = () => {
                                 </div>
                             </div>
                         )}
+                         </div>
+                </div>
+                <div id='schAct2'>
+                    <div id="afterSch">
+                        <h4>After School Care Service</h4>
                     </div>
+                    
                 </div>
             </div>
         </div>
