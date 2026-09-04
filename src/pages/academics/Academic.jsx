@@ -7,15 +7,17 @@ import image4 from "/src/assets/image/imgfo.jpg"
 import image6 from "/src/assets/image/imgfi.jpg"
 import image7 from "/src/assets/image/imgs.jpg"
 import image5 from "/src/assets/image/bgOnee.jpg"
-
+import image9 from "/src/assets/image/afterSchoolCare.png"
 
 const Academic = () => {
     const [isOpen, setIsOpen] = useState(false)
     const [isOpenT, setIsOpenT] = useState(false)
+    const [isOpened, setIsOpened] = useState(false)
     const [currentIndex, setCurrentIndex] = useState(0)
     const [currentIndexT, setCurrentIndexT] = useState(0)
+    const [currentIndexed, setCurrentIndexed] = useState(0)
     useEffect(() =>{
-        if(isOpen || isOpenT){
+        if(isOpen || isOpenT || isOpened){
             document.body.style.overflow = "hidden";
         } else {
             document.body.style.overflow = "auto"
@@ -23,18 +25,22 @@ const Academic = () => {
         return () => {
             document.body.style.overflow = "auto"
         }
-    }, [isOpen, isOpenT])
+    }, [isOpen, isOpenT, isOpened])
     const images = [
         image1,
         image2,
         image3,
         image4,
-        "WHY ALWAYS ME I FEEL LIKE BALOTELLI"    ]
+   ]
     const imagesT = [
         image5,
         image6,
         image7,
         image5,
+
+    ]
+    const imagesed = [
+        image9,
     ]
     const openOverlay = (index) => {
         setCurrentIndex(index);
@@ -44,9 +50,14 @@ const Academic = () => {
         setCurrentIndexT(index);
         setIsOpenT(true)
     };
+    const openOverlayED = (index)=>{
+        setCurrentIndexed(index)
+        setIsOpened(true)
+    }
 
     const closeOverlay = () => setIsOpen(false)
     const closeOverlayT = () => setIsOpenT(false)
+    const closeOverlayed = () => setIsOpened(false)
     const prevImage = () =>
         setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
     const prevImageT = () =>
@@ -65,7 +76,7 @@ const Academic = () => {
         window.addEventListener("keydown", handleKey);
         return () => window.removeEventListener("keydown", handleKey);
 
-    });
+    }, []);
     useEffect(() => {
         const handleKeyT = (e) => {
             if (e.key === "Escape") setIsOpenT(false);
@@ -74,7 +85,7 @@ const Academic = () => {
         };
         window.addEventListener("keydown", handleKeyT);
         return () => window.removeEventListener("keydown", handleKeyT);
-    });
+    }, []);
     const [touchStartX, setTouchStartX] = useState(null);
     const handleTouchStart = (e) => setTouchStartX(e.touches[0].clientX);
     const handleTouchEnd = (e) => {
@@ -96,6 +107,17 @@ const Academic = () => {
         if (distance > 50) prevImageT();
         if (distance < -50) nextImageT();
         setTouchStartXT(null);
+    };
+    const [touchStartXTed, setTouchStartXTed] = useState(null);
+    const handleTouchStartTed = (e) => setTouchStartXTed(e.touches[0].clientX);
+    const handleTouchEndTed = (e) => {
+        if (!touchStartXTed) return;
+        const distance = e.changedTouches[0].clientX - touchStartXTed;
+        // if (distance > 50) prevImage();
+        // if (distance < -50) nextImage();
+        if (distance > 50) prevImageT();
+        if (distance < -50) nextImageT();
+        setTouchStartXTed(null);
     };
     const p = "<"
     const pp = ">"
@@ -139,7 +161,7 @@ const Academic = () => {
                         )}
                     </div>
                     <div id="cultural">
-                        <h4 className='h3'>School Graduation</h4>
+                        <h4 className='h3'>School Excursion</h4>
                         <div id="graduateImg">
                             <img src={image5} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayT(0)} />
                             <img src={image6} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayT(1)} />
@@ -165,6 +187,15 @@ const Academic = () => {
                 <div id='schAct2'>
                     <div id="afterSch">
                         <h4>After School Care Service</h4>
+                        <img src={image9} alt="Thumbnail" className='thumbnail2' onClick={() => openOverlayED(0)}  />
+                        {isOpened && (
+                            <div className="overlay" onClick={closeOverlayed}>
+                                {/* <p id='pic'>swipe for next</p> */}
+                                <div className="popup" onClick={(e) => e.stopPropagation()} onTouchStart={handleTouchStartTed} onTouchEnd={handleTouchEndTed}>
+                                <img src={imagesed[currentIndexed]} alt="Full" />
+                                </div>
+                            </div>
+                        )}
                     </div>
                     
                 </div>
