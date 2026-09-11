@@ -79,7 +79,7 @@ h3{
     margin-top: 20px;
     justify-content: center;
 }
-#acd .thumbnail{
+#acd .thumbnail, #schAct2 .thumbnail{
     width: calc(60% - 10px);
     max-width: 220px;
     /* border: 5px solid #000; */
@@ -152,7 +152,8 @@ h3{
 #schAct2{
     padding-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 #afterSch{
