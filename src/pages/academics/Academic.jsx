@@ -369,7 +369,7 @@ const Academic = () => {
                 <div id="act">
                     
                     <div  id="cultural">
-                        <h4 className='h3'>School Excursion</h4>
+                        <h4 className='h3'>Walimah-tul-Quran </h4>
                         <div style={{alignSelf:"center"}} id="graduateImg">
                             <img src={image14} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayex(0)} />
                             <img src={image15} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayex(1)} />
