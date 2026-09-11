@@ -25,7 +25,7 @@ const Index = () => {
             <div id="sec">
                 <div id="secO">
                     <h3>Who Are We?</h3>
-                    <p>Double Merit Children Academy, located in 7, Ishaga Road opposite Mabo junction Ojuelegba, Surulere Lagos State, Nigeria, is a private primary school established on September, 2002.The school was founded to provide comprehensive education that integrates academic excellence with moral and intellectual development, grounded in Islamic principles.</p>
+                    <p>Double Merit Children Academy, located in 7, Ishaga Road opposite Mabo junction Ojuelegba, Surulere Lagos State, Nigeria, is a private primary school established on September, 2015.The school was founded to provide comprehensive education that integrates academic excellence with moral and intellectual development, grounded in Islamic principles.</p>
                 </div>
                 <div id="secT">
                     <img src={image} className='thumbnail' onClick={openOverlay} alt="Thumbnail" />
