@@ -26,7 +26,7 @@
 }
 
 #who {
-    width: 45%;
+    width:30%;
 }
 
 #who h3, #found h3, #ourServ h3 {
@@ -35,10 +35,13 @@
 }
 
 #found {
-    width: 45%;
+    width: 30%;
 }
 #who p, #found p, #ourServ li{
     font-size: 1.05rem;
+}
+#ourServ{
+    width: 30%;
 }
 @media (max-width:1024px) and (min-width:769px) {
     #abtP {
@@ -57,7 +60,7 @@
         font-size: 2rem;
         padding: 90px;
     }
-    #who, #found{
+    #who, #found,#ourServ{
         width: 100%;
     }
     #who h3, #found h3, #ourServ h3 {
