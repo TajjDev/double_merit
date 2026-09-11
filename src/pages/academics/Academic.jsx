@@ -369,8 +369,8 @@ const Academic = () => {
                 <div id="act">
                     
                     <div  id="cultural">
-                        <h4 className='h3'>walimah activities</h4>
-                        <div id="graduateImg">
+                        <h4 className='h3'>School Excursion</h4>
+                        <div style={{alignSelf:"center"}} id="graduateImg">
                             <img src={image14} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayex(0)} />
                             <img src={image15} alt="Thumbnail" className='thumbnail' onClick={() => openOverlayex(1)} />
                         </div>
@@ -391,7 +391,7 @@ const Academic = () => {
                          </div>
                          <div  id="graduate">
                         <h4>After School Care Service</h4>
-                        <img src={image9} alt="Thumbnail" className='thumbnail2' onClick={() => openOverlayED(0)}  />
+                        <img  style={{alignSelf:"center"}} src={image9} alt="Thumbnail" className='thumbnail2' onClick={() => openOverlayED(0)}  />
                         {isOpened && (
                             <div className="overlay" onClick={closeOverlayed}>
                                 {/* <p id='pic'>swipe for next</p> */}
